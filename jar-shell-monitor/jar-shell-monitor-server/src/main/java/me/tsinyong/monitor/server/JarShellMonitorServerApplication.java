@@ -1,14 +1,14 @@
-package me.tsinyong.jar.shell.monitor;
+package me.tsinyong.monitor.server;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JarShellMonitorApplication implements CommandLineRunner {
+public class JarShellMonitorServerApplication implements CommandLineRunner {
 
     public static void main(String[] args) {
-        SpringApplication.run(JarShellMonitorApplication.class, args);
+        SpringApplication.run(JarShellMonitorServerApplication.class, args);
     }
 
     @Override
